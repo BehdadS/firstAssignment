@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Assignment - Sign Up Page</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 <body>
   <h1 class="heading">Sign Up</h1>
-  <input type="text" id="fname" name="fname" placeholder="Firs Name">
-  <input type="text" id="lname" name="lname" placeholder="Last Name">
-  <input type="number" id="mobile" name="mobile" placeholder="Mobile No.">
-  <input type="email" id="email" name="email" placeholder="Email Address">
-  <input type="password" id="password" name="fname" placeholder="Password">
-  <input type="password" id="cpassword" name="lname" placeholder="Confirm Password">
+  <main>
+    <input class="input" type="text" id="fname" name="fname" placeholder="Firs Name">
+    <input class="input" type="text" id="lname" name="lname" placeholder="Last Name">
+    <input class="input" type="number" id="mobile" name="mobile" placeholder="Mobile No.">
+    <input class="input" type="email" id="email" name="email" placeholder="Email Address">
+    <input class="input" type="password" id="password" name="fname" placeholder="Password">
+    <input class="input" type="password" id="cpassword" name="lname" placeholder="Confirm Password">
 
-  <form class="form" action="/action_page.php">
-    <input type="checkbox" id="agree" name="agree">
-    <label for="agree">I Agree</label><br>
-  </form>
 
-  <p class="tandc">
-    By clicking <span class="register">Register</span>, you agree to the <a class="tc" href="http://www.google.com">Terms and Conditions</a> set<br>
-    out by this site, icluding our Cookie Use
-  </p>
+    <p class="tandc">
+      By clicking <span class="register">Register</span>, you agree to the <a class="tc" href="http://www.google.com">Terms and Conditions</a> set
+      out by this site, icluding our Cookie Use
+    </p>
+    <form class="form" action="/action_page.php">
+      <input type="checkbox" id="agree" name="agree">
+      <label for="agree">I Agree</label><br>
+    </form>
 
-  <button class="registerBtn" type="button" onclick="alert('Registered!')">Register</button>
-  <button class="signinBtn" type="button">Sign In</button>
+    
+
+    <button class="registerBtn" type="button" onclick="alert('Registered!')">Register</button>
+    <button class="signinBtn" type="button">Sign In</button>
+  </main>
 </body>
 </html>
